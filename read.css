@@ -1,0 +1,24 @@
+.container{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 60%  20%;
+    grid-template-rows: repeat(4,auto) ;
+    gap: 10px;
+    grid-template-areas: "hd ab" " ha ar" "sb ex" "sbh sbh";
+}
+.box{
+    border: 1px sloid red;
+}
+
+#box{
+    grid-area: hd ab ar;
+}
+#box1{
+    grid-area: ha ar;
+}
+#box2{
+    grid-area: sb ex;
+}
+#box5{
+grid-area: sbh ex;
+}
